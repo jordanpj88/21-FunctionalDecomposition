@@ -115,6 +115,6 @@ def game_loop(secret_word, current_guess, number_incorrect_guesses, game_board):
         print("JK, we'll do it for you. :)")
         time.sleep(2)
         main()
-
+# To end the game type in anything but a 'y' or an 'n' when prompted to. Both of those answers will continue into another round of the game. (purposely)
 
 main()
